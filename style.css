@@ -1,0 +1,56 @@
+input {
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+}
+
+.fa-heart {
+    opacity: 0;
+    font-size: 1.5rem;
+    color: red;
+    padding-top: 5px;
+    padding-left: 3px;
+}
+
+.fa-square {
+    position: absolute;
+    font-size: 2.2rem;
+}
+
+input:checked~i.fa-heart {
+    opacity: 1;
+}
+
+.love {
+    display: inline-block;
+    margin-left: 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.audio {
+    background-color: yellow;
+
+    height: 100vh;
+}
+
+audio {
+    display: block;
+    padding-top: 50vh;
+    margin: 0 auto;
+}
+
+.video {
+    background-color: lightblue;
+    height: 100vh;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+    
+}
